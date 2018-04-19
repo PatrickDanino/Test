@@ -4,51 +4,47 @@
 <vmap:AdSource allowMultipleAds="true" followRedirects="true" id="1">
 <vmap:VASTAdData>
 
-<VAST version="3.0">
-    <Ad id="1234567">
-        <InLine>
-            <AdSystem>Ad System</AdSystem>
-            <AdTitle>VPAID 2 Linear</AdTitle>
-            <Description>VPAID 2 Linear Video Ad</Description>
-            <Creatives>
-                <Creative sequence="1">
-                    <Linear>
-                        <Duration>00:00:30</Duration>
-                        <AdParameters>
-                        <![CDATA[
-                            {"videos":[
-                                {"url":"https://s3.amazonaws.com/demo.jwplayer.com/player-demos/assets/preroll.mp4", "mimetype":"video/mp4"}],
-                            "attributes": {
-                                "desiredBitrate" : 256,
-                                "duration" : 30,
-                                "expanded" : false,
-                                "height" : 0,
-                                "icons" : "",
-                                "linear" : true,
-                                "remainingTime" : 30,
-                                "skippableState" : true,
-                                "viewMode" : "normal",
-                                "width" : 0,
-                                "volume" : 1.0
-                                }
-                            }
-                            ]]>
-                        </AdParameters>
-                        <VideoClicks>
-                            <ClickThrough id="GDFP">
-                                <![CDATA[ https://www.jwplayer.com ]]>
-                            </ClickThrough>
-                        </VideoClicks>
-                        <MediaFiles>
-                            <MediaFile apiFramework="VPAID" type="application/javascript">
-                                <![CDATA[ https://patrickdanino.github.io/Test/VPAID-NonLinearTest.js]]>
-                            </MediaFile>
-                        </MediaFiles>
-                    </Linear>
-                </Creative>
-            </Creatives>
-        </InLine>
-    </Ad>
+
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+<Ad id="1234567">
+<InLine>
+<AdSystem></AdSystem>
+<AdTitle>NonLinear VPAID JS</AdTitle>
+<Description>Vpaid Linear Video Ad</Description>
+<Error>http://www.example.com/error</Error>
+<Impression>http://www.example.com/impression</Impression>
+<Creatives>
+<Creative sequence="1">
+<NonLinearAds>
+<TrackingEvents>
+<Tracking event="start">http://www.example.com/start</Tracking>
+<Tracking event="firstQuartile">http://www.example.com/firstQuartile</Tracking>
+<Tracking event="midpoint">http://www.example.com/midpoint</Tracking>
+<Tracking event="thirdQuartile">http://www.example.com/thirdQuartile</Tracking>
+<Tracking event="complete">http://www.example.com/complete</Tracking>
+<Tracking event="mute">http://www.example.com/mute</Tracking>
+<Tracking event="rewind">http://www.example.com/rewind</Tracking>
+<Tracking event="pause">http://www.example.com/pause</Tracking>
+<Tracking event="resume">http://www.example.com/resume</Tracking>
+<Tracking event="fullscreen">http://www.example.com/fullscreen</Tracking>
+<Tracking event="creativeView">http://www.example.com/creativeView</Tracking>
+<Tracking event="acceptInvitation">http://www.example.com/acceptInvitation</Tracking>
+</TrackingEvents>
+<NonLinear apiFramework="VPAID" width="300" height="60" id="overlay-1">
+<AdParameters>
+<![CDATA[{"overlays":[], "videos":[] }]]>
+</AdParameters>
+<StaticResource creativeType="application/javascript"><![CDATA[ https://patrickdanino.github.io/Test/VPAID-NonLinearTest.js ]]>
+</StaticResource>
+<NonLinearClickThrough id="GDFP">
+<![CDATA[ http://google.com ]]>
+</NonLinearClickThrough>
+</NonLinear>
+</NonLinearAds>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
 </VAST>
 
 </vmap:VASTAdData>
