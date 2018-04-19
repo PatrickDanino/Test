@@ -34,8 +34,8 @@
 <AdParameters>
 <![CDATA[{"overlays":[], "videos":[] }]]>
 </AdParameters>
-<StaticResource creativeType="application/javascript"><![CDATA[ https://patrickdanino.github.io/Test/VPAID-NonLinearTest.js ]]>
-</StaticResource>
+<!-- <StaticResource creativeType="application/javascript"><![CDATA[ https://patrickdanino.github.io/Test/VPAID-NonLinearTest.js ]]>
+</StaticResource> -->
 <NonLinearClickThrough id="GDFP">
 <![CDATA[ http://google.com ]]>
 </NonLinearClickThrough>
