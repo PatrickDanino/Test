@@ -17,7 +17,7 @@
                         <AdParameters>
                         <![CDATA[
                             {"videos":[
-                                {"url":"//s3.amazonaws.com/demo.jwplayer.com/player-demos/assets/preroll.mp4","mimetype":"video/mp4"}],
+                                {"url":"https://s3.amazonaws.com/demo.jwplayer.com/player-demos/assets/preroll.mp4", "mimetype":"video/mp4"}],
                             "attributes": {
                                 "desiredBitrate" : 256,
                                 "duration" : 30,
@@ -36,12 +36,12 @@
                         </AdParameters>
                         <VideoClicks>
                             <ClickThrough id="GDFP">
-                                <![CDATA[ http://www.jwplayer.com ]]>
+                                <![CDATA[ https://www.jwplayer.com ]]>
                             </ClickThrough>
                         </VideoClicks>
                         <MediaFiles>
                             <MediaFile apiFramework="VPAID" type="application/javascript">
-                                <![CDATA[ //patrickdanino.github.io/Test/VPAID-NonLinearTest.js]]>
+                                <![CDATA[ https://patrickdanino.github.io/Test/VPAID-NonLinearTest.js]]>
                             </MediaFile>
                         </MediaFiles>
                     </Linear>
