@@ -30,6 +30,26 @@
 <Tracking event="acceptInvitation">http://www.example.com/acceptInvitation</Tracking>
 </TrackingEvents>
 <NonLinear apiFramework="VPAID" width="1" height="1" id="overlay-1">
+                <AdParameters>
+                        <![CDATA[
+                            {"videos":[
+                                {"url":"//s3.amazonaws.com/demo.jwplayer.com/player-demos/assets/preroll.mp4","mimetype":"video/mp4"}],
+                            "attributes": {
+                                "desiredBitrate" : 256,
+                                "duration" : 30,
+                                "expanded" : false,
+                                "height" : 0,
+                                "icons" : "",
+                                "linear" : true,
+                                "remainingTime" : 30,
+                                "skippableState" : true,
+                                "viewMode" : "normal",
+                                "width" : 0,
+                                "volume" : 1.0
+                                }
+                            }
+                            ]]>
+                        </AdParameters>
 <StaticResource creativeType="application/javascript"><![CDATA[https://patrickdanino.github.io/Test/VPAID-NonLinearTest.js]]>
 </StaticResource>
 </NonLinear>
