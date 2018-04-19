@@ -32,7 +32,7 @@ var VpaidNonLinear = function() {
   this.attributes_ = {
     'companions' : '',
     'desiredBitrate' : 256,
-    'duration' : 10,
+    'duration' : 115,
     'expanded' : false,
     'height' : 0,
     'icons' : '',
@@ -40,7 +40,7 @@ var VpaidNonLinear = function() {
     'skippableState' : false,
     'viewMode' : 'normal',
     'width' : 0,
-    'volume' : 50
+    'volume' : 100
   };
 
   /**
@@ -212,29 +212,12 @@ VpaidNonLinear.prototype.overlay2OnClick_ = function() {
  */
 VpaidNonLinear.prototype.startAd = function() {
   this.log('Starting ad');
-  var style = document.createElement('style');
-  style.type = 'text/css';
-  if (style.styleSheet) {
-    style.styleSheet.cssText = VpaidNonLinear.IMG_CSS;
-  } else {
-    style.appendChild(document.createTextNode(VpaidNonLinear.IMG_CSS));
-  }
-  this.slot_.appendChild(style);
+
   var date = new Date();
   this.startTime_ = date.getTime();
   this.timePaused_ = 0;
   this.lastRemainingTime_ = -1;
   this.isPaused_ = false;
-  var img = document.createElement('img');
-  img.src = this.imageUrls_[0] || '';
-  img.classList.add('animatedImg');
-  this.slot_.appendChild(img);
-  img.addEventListener('click', this.overlayOnClick_.bind(this), false);
-
-  img = document.createElement('img');
-  img.src = this.imageUrls_[1] || '';
-  this.slot_.appendChild(img);
-  img.addEventListener('click', this.overlay2OnClick_.bind(this), false);
 
   this.invokeCallback_('AdStarted');
   this.invokeCallback_('AdImpression');
