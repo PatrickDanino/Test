@@ -124,18 +124,16 @@ VpaidNonLinear.prototype.initAd = function(
 
   this.interval_ = setInterval(function() {
     if (this.vpaidAd.startTime_ > 0) {
-      this.vpaidAd.log('duration:' + this.vpaidAd.getAdRemainingTime());
+      this.vpaidAd.log('ad duration:' + this.vpaidAd.getAdRemainingTime());
     }
-  }, 1000);
+  }, 2000);
 
   if (parent.playerInstance != null) {
-    parent.playerInstance.on('time', function(e) {
-      if (e.duration != null) {
-        this.vpaidAd.log('duration:' + e.duration)
-      }
-    });
+    var callback = this.timeHandler_.bind(this);
+    parent.playerInstance.on('time', callback);
+
     parent.playerInstance.on('complete', function() {
-      this.vpaidAd.log('play complete');
+      console.log('play complete');
     });
 
     this.log('initAd ' + width + 'x' + height + ' ' + viewMode + ' ' + desiredBitrate);
@@ -146,15 +144,18 @@ VpaidNonLinear.prototype.initAd = function(
   }
 };
 
-VpaidNonLinear.prototype.timeHandler_ = function() {
+
+VpaidNonLinear.prototype.timeHandler_ = function(e) {
+  if (e == null) { return; }
+
   // call quartile event
-  var quartile = Math.floor((this.videoSlot_.currentTime/this.videoSlot_.duration*100)/25);
+  var quartile = Math.floor((e.position/e.duration*100)/25);
   if (this._quartileEvent !== quartile) {
       this._quartileEvent = quartile;
       this._callEvent(this._quartiles[quartile-1]);
   }
   // change remaining time
-  var remainingTime = this.videoSlot_.duration - this.videoSlot_.currentTime;
+  var remainingTime = e.duration - e.position;
   this.log('remainging time:' + remainingTime);
   this.attributes_['remainingTime'] = remainingTime;
   this.invokeCallback_('AdRemainingTimeChange');
