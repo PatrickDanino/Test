@@ -62,6 +62,9 @@ var VpaidNonLinear = function() {
   this.videos_ = [];
 
   this.interval_ = null;
+
+  this._quartileEvent = 0;
+  this._quartiles = ['AdVideoFirstQuartile', 'AdVideoMidPoint', 'AdVideoThirdQuartile'];
 };
 
 
@@ -119,6 +122,9 @@ VpaidNonLinear.prototype.initAd = function(
   this.imageUrls_ = data.overlays || [];
   this.videos_ = data.videos || [];
 
+  this.videoSlot_.addEventListener('timeupdate', this.timeHandler_.bind(this), false);
+  this.videoSlot_.addEventListener('ended', this.stopAd.bind(this),false);
+
   this.interval_ = setInterval(function() {
     if (this.vpaidAd.startTime_ > 0) {
       this.vpaidAd.log('duration:' + this.vpaidAd.getAdRemainingTime());
@@ -129,6 +135,20 @@ VpaidNonLinear.prototype.initAd = function(
       ' ' + viewMode + ' ' + desiredBitrate);
   this.invokeCallback_('AdLoaded');
 };
+
+VpaidNonLinear.prototype.timeHandler_ = function() {
+  // call quartile event
+  var quartile = Math.floor((this.videoSlot_.currentTime/this.videoSlot_.duration*100)/25);
+  if (this._quartileEvent !== quartile) {
+      this._quartileEvent = quartile;
+      this._callEvent(this._quartiles[quartile-1]);
+  }
+  // change remaining time
+  var remainingTime = this.videoSlot_.duration - this.videoSlot_.currentTime;
+  this.log('remainging time:' + remainingTime);
+  this.attributes_['remainingTime'] = remainingTime;
+  this.invokeCallback_('AdRemainingTimeChange');
+}
 
 
 /**
@@ -148,23 +168,6 @@ VpaidNonLinear.prototype.updateVideoPlayerSize_ = function() {
  */
 VpaidNonLinear.prototype.handshakeVersion = function(version) {
   return '2.0';
-};
-
-
-/**
- * Called when the overlay is clicked.  Increases the ad duration 10 seconds.
- * @private
- */
-VpaidNonLinear.prototype.overlayOnClick_ = function() {
-  this.eventCallbacks_['AdClickThru'](
-      '', // optional URL
-      '0',  // id of the clickThru
-      true); // whether the player should handle the clickthrough event
-
-  // Make the duration longer when a click happens.
-  // This is mostly a method to test AdRemainingTimeChange behavior works.
-  this.attributes_.duration += 10;
-  this.invokeCallback_('AdRemainingTimeChange');
 };
 
 
