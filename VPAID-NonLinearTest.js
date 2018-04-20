@@ -120,7 +120,7 @@ VpaidNonLinear.prototype.initAd = function(
   this.videos_ = data.videos || [];
 
   this.interval_ = setInterval(function() {
-    if (this.startTime_ > 0) {
+    if (this.vpaidAd.startTime_ > 0) {
       this.log('duration:' + this.getAdRemainingTime());
     }
   }, 1000);
