@@ -61,8 +61,6 @@ var VpaidNonLinear = function() {
    */
   this.videos_ = [];
 
-  this.interval_ = null;
-
   this._quartileEvent = 0;
   this._quartiles = ['AdVideoFirstQuartile', 'AdVideoMidPoint', 'AdVideoThirdQuartile'];
 };
@@ -122,12 +120,6 @@ VpaidNonLinear.prototype.initAd = function(
   this.imageUrls_ = data.overlays || [];
   this.videos_ = data.videos || [];
 
-  this.interval_ = setInterval(function() {
-    if (this.vpaidAd.startTime_ > 0) {
-      this.vpaidAd.log('ad duration:' + this.vpaidAd.getAdRemainingTime());
-    }
-  }, 2000);
-
   if (parent.playerInstance != null) {
     var callback = this.timeHandler_.bind(this);
     parent.playerInstance.on('time', callback);
@@ -148,17 +140,18 @@ VpaidNonLinear.prototype.initAd = function(
 VpaidNonLinear.prototype.timeHandler_ = function(e) {
   if (e == null) { return; }
 
-  // call quartile event
-  var quartile = Math.floor((e.position/e.duration*100)/25);
-  if (this._quartileEvent !== quartile) {
-      this._quartileEvent = quartile;
-      this._callEvent(this._quartiles[quartile-1]);
-  }
   // change remaining time
   var remainingTime = e.duration - e.position;
   this.log('remainging time:' + remainingTime);
   this.attributes_['remainingTime'] = remainingTime;
-  this.invokeCallback_('AdRemainingTimeChange');
+  //this.invokeCallback_('AdRemainingTimeChange');
+
+  // call quartile event
+  var quartile = Math.floor((e.position/e.duration*100)/25);
+  if (this._quartileEvent !== quartile) {
+    this._quartileEvent = quartile;
+    this.invokeCallback_(this._quartiles[quartile-1]);
+  }
 }
 
 
