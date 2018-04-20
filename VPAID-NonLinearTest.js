@@ -60,6 +60,8 @@ var VpaidNonLinear = function() {
    * @private {!Array.<!Object>}
    */
   this.videos_ = [];
+
+  this.interval_ = null;
 };
 
 
@@ -116,6 +118,12 @@ VpaidNonLinear.prototype.initAd = function(
   var data = JSON.parse(creativeData['AdParameters']);
   this.imageUrls_ = data.overlays || [];
   this.videos_ = data.videos || [];
+
+  this.interval_ = setInterval(function() {
+    if (this.startTime_ > 0) {
+      this.log('duration:' + this.getAdRemainingTime());
+    }
+  }, 1000);
 
   this.log('initAd ' + width + 'x' + height +
       ' ' + viewMode + ' ' + desiredBitrate);
@@ -274,10 +282,26 @@ VpaidNonLinear.prototype.resizeAd = function(width, height, viewMode) {
  * Pauses the ad.
  */
 VpaidNonLinear.prototype.pauseAd = function() {
-  if (!this.attributes_.linear) {
+  //if (!this.attributes_.linear) {
     // cannot pause a non-linear ad
-    return;
-  }
+  //   return;
+  //}
+  this.log('pauseAd');
+  this.isPaused_ = true;
+  var date = new Date();
+  this.pauseStartTime_ = date.getTime();
+  this.videoSlot_.pause();
+  this.invokeCallback_('AdPaused');
+};
+
+/**
+ * Pauses the ad.
+ */
+VpaidNonLinear.prototype.pauseAd = function() {
+  //if (!this.attributes_.linear) {
+    // cannot pause a non-linear ad
+  //   return;
+  //}
   this.log('pauseAd');
   this.isPaused_ = true;
   var date = new Date();
