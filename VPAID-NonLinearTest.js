@@ -122,18 +122,26 @@ VpaidNonLinear.prototype.initAd = function(
   this.imageUrls_ = data.overlays || [];
   this.videos_ = data.videos || [];
 
-  this.videoSlot_.addEventListener('timeupdate', this.timeHandler_.bind(this), false);
-  this.videoSlot_.addEventListener('ended', this.stopAd.bind(this),false);
-
   this.interval_ = setInterval(function() {
     if (this.vpaidAd.startTime_ > 0) {
       this.vpaidAd.log('duration:' + this.vpaidAd.getAdRemainingTime());
     }
   }, 1000);
 
-  this.log('initAd ' + width + 'x' + height +
-      ' ' + viewMode + ' ' + desiredBitrate);
-  this.invokeCallback_('AdLoaded');
+  if (parent.playerInstance != null) {
+    parent.playerInstance.on('time', function(e) {
+      this.vpaidAd.log('duration:' + e.duration)
+    });
+    parent.playerInstance.on('complete', function(e) {
+
+    });
+
+    this.log('initAd ' + width + 'x' + height + ' ' + viewMode + ' ' + desiredBitrate);
+    this.invokeCallback_('AdLoaded');
+
+  } else {
+    this.invokeCallback_('AdError');
+  }
 };
 
 VpaidNonLinear.prototype.timeHandler_ = function() {
