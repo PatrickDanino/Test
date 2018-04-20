@@ -130,10 +130,12 @@ VpaidNonLinear.prototype.initAd = function(
 
   if (parent.playerInstance != null) {
     parent.playerInstance.on('time', function(e) {
-      this.vpaidAd.log('duration:' + e.duration)
+      if (e.duration != null) {
+        this.vpaidAd.log('duration:' + e.duration)
+      }
     });
-    parent.playerInstance.on('complete', function(e) {
-
+    parent.playerInstance.on('complete', function() {
+      this.vpaidAd.log('play complete');
     });
 
     this.log('initAd ' + width + 'x' + height + ' ' + viewMode + ' ' + desiredBitrate);
