@@ -495,5 +495,6 @@ VpaidNonLinear.prototype.invokeCallback_ = function(eventType) {
  * @return {Object} The VPAID compliant ad.
  */
 var getVPAIDAd = function() {
-  return new VpaidNonLinear();
+  this.vpaidAd = new VpaidNonLinear();
+  return this.vpaidAd;
 };
