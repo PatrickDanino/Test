@@ -121,7 +121,7 @@ VpaidNonLinear.prototype.initAd = function(
 
   this.interval_ = setInterval(function() {
     if (this.vpaidAd.startTime_ > 0) {
-      this.log('duration:' + this.vpaidAd.getAdRemainingTime());
+      this.vpaidAd.log('duration:' + this.vpaidAd.getAdRemainingTime());
     }
   }, 1000);
 
