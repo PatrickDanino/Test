@@ -1,0 +1,30 @@
+/* Customized UI for the JWPlayer
+ 
+ Based on https://developer.jwplayer.com/jw-player/demos/customization/custom-icons/
+ Also see https://github.com/jwplayer/jwdeveloper-demos/tree/master/demos/customization/custom-icons
+ 
+ */
+
+/* FULLSCREEN */
+.jw-svg-icon-fullscreen-on path {
+    display: none;
+}
+
+.jw-icon-fullscreen:before .jw-svg-icon-fullscreen-on {
+    display: none;
+}
+
+.jw-icon-fullscreen:hover .jw-svg-icon-fullscreen-on {
+    display: none;
+}
+.jw-svg-icon-fullscreen-off path {
+    display: none;
+}
+
+.jw-icon-fullscreen:hover .jw-svg-icon-fullscreen-off {
+    display: none;
+}
+
+.jw-icon-fullscreen:before .jw-svg-icon-fullscreen-off {
+    display: none;
+}
