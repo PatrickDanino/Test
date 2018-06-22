@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 /* The main class for styling the controlbar. */
-.jw-skin-ethan .jw-controlbar {
+.jw-skin-imdb .jw-controlbar {
   background: red;
   border-top: yellow 1px solid;
   height: 3.5em;
@@ -9,62 +9,62 @@
 
 
 /* The color for all icons in the control bar whebn they are not hoverd on. */
-.jw-skin-ethan .jw-icon,
-.jw-skin-ethan .jw-text,
-.jw-skin-ethan .jw-icon-inline {
+.jw-skin-imdb .jw-icon,
+.jw-skin-imdb .jw-text,
+.jw-skin-imdb .jw-icon-inline {
   color: blue;
 }
 
 /* Sets the spacing between icon containers within the control bar. */
-.jw-skin-ethan .jw-text,
-.jw-skin-ethan .jw-icon-inline,
-.jw-skin-ethan .jw-icon-tooltip {
+.jw-skin-imdb .jw-text,
+.jw-skin-imdb .jw-icon-inline,
+.jw-skin-imdb .jw-icon-tooltip {
   padding: 0px 5px 3px 5px;
 }
 
  /* Sets the space between the icons and the border */
-.jw-skin-ethan .jw-icon:before {
+.jw-skin-imdb .jw-icon:before {
   padding-left: 1em;
 }
 
 /* The color for all icons in the control bar when they are hoverd on or are activated. */
 
-.jw-skin-ethan .jw-icon:hover,
-.jw-skin-ethan .jw-icon:before:hover {
+.jw-skin-imdb .jw-icon:hover,
+.jw-skin-imdb .jw-icon:before:hover {
   color: #ff9600;
 }
 
 
-.jw-skin-ethan .jw-icon-playback:before,
-.jw-skin-ethan .jw-icon-display:before {
+.jw-skin-imdb .jw-icon-playback:before,
+.jw-skin-imdb .jw-icon-display:before {
   padding-left: 0;
 }
 
 /* Sets the font size of the previous and next icons as well as the space between them.*/
-.jw-skin-ethan .jw-icon-prev,
-.jw-skin-ethan .jw-icon-next {
+.jw-skin-imdb .jw-icon-prev,
+.jw-skin-imdb .jw-icon-next {
   font-size: 1em;
   padding: 0 0 0 0;
 }
 
 
-.jw-skin-ethan .jw-icon-prev:before {
+.jw-skin-imdb .jw-icon-prev:before {
   border-left: 2px solid yelloe;
 }
 
-.jw-skin-ethan .jw-icon-next:before {
+.jw-skin-imdb .jw-icon-next:before {
   border-right: 2px solid yellow;
   padding-right: 1em;
 }
 
 /* Default color of the Play, Replay, and Buffering display icons. */
-.jw-skin-ethan .jw-icon-display {
+.jw-skin-imdb .jw-icon-display {
   color: #ff9600;
 }
 
 /* Sets the shape of the display icon container. This is a circle.*/
 
-.jw-skin-ethan .jw-display-icon-container {
+.jw-skin-imdb .jw-display-icon-container {
   background: #fff;
   border-radius: 50%;
   padding: 0 1em;
@@ -72,33 +72,33 @@
 }
 
 
-.jw-skin-ethan.jw-state-idle .jw-display-icon-container {
+.jw-skin-imdb.jw-state-idle .jw-display-icon-container {
   padding: 0 0 0 .5em;
 }
 
-.jw-skin-ethan .jw-slider-horizontal .jw-rail,
-.jw-skin-ethan .jw-slider-vertical .jw-rail {
+.jw-skin-imdb .jw-slider-horizontal .jw-rail,
+.jw-skin-imdb .jw-slider-vertical .jw-rail {
   background-color: green;
   box-shadow: none;
 }
 
-.jw-skin-ethan .jw-slider-horizontal .jw-buffer,
-.jw-skin-ethan .jw-slider-vertical .jw-buffer {
+.jw-skin-imdb .jw-slider-horizontal .jw-buffer,
+.jw-skin-imdb .jw-slider-vertical .jw-buffer {
   background-color: orange;
 }
 
-.jw-skin-ethan .jw-slider-horizontal .jw-progress,
-.jw-skin-ethan .jw-slider-vertical .jw-progress {
+.jw-skin-imdb .jw-slider-horizontal .jw-progress,
+.jw-skin-imdb .jw-slider-vertical .jw-progress {
   background: purple;
 }
 
-.jw-skin-ethan .jw-slider-horizontal .jw-knob,
-.jw-skin-ethan .jw-slider-vertical .jw-knob {
+.jw-skin-imdb .jw-slider-horizontal .jw-knob,
+.jw-skin-imdb .jw-slider-vertical .jw-knob {
   top: -0.19999999999999998em;
 }
 
-.jw-skin-ethan .jw-slider-horizontal .jw-knob:after,
-.jw-skin-ethan .jw-slider-vertical .jw-knob:after {
+.jw-skin-imdb .jw-slider-horizontal .jw-knob:after,
+.jw-skin-imdb .jw-slider-vertical .jw-knob:after {
   background-color: #333;
   box-shadow: 0px 0px 0px 1px #fff;
   width: 1em;
@@ -106,122 +106,122 @@
   border-radius: 1em;
 }
 
-.jw-skin-ethan .jw-slider-horizontal .jw-slider-container {
+.jw-skin-imdb .jw-slider-horizontal .jw-slider-container {
   height: 1em;
 }
 
-.jw-skin-ethan .jw-slider-horizontal .jw-rail,
-.jw-skin-ethan .jw-slider-horizontal .jw-buffer,
-.jw-skin-ethan .jw-slider-horizontal .jw-progress {
+.jw-skin-imdb .jw-slider-horizontal .jw-rail,
+.jw-skin-imdb .jw-slider-horizontal .jw-buffer,
+.jw-skin-imdb .jw-slider-horizontal .jw-progress {
   height: 0.5em;
   border-radius: 0;
 }
 
-.jw-skin-ethan .jw-slider-horizontal .jw-knob {
+.jw-skin-imdb .jw-slider-horizontal .jw-knob {
   top: -15%;
 }
 
-.jw-skin-ethan .jw-slider-horizontal .jw-cue {
+.jw-skin-imdb .jw-slider-horizontal .jw-cue {
   top: -0.04999999999999999em;
 }
 
-.jw-skin-ethan .jw-slider-horizontal .jw-cue:after {
+.jw-skin-imdb .jw-slider-horizontal .jw-cue:after {
   width: .3em;
   height: .3em;
   background-color: #fff;
   border-radius: 50%;
 }
 
-.jw-skin-ethan .jw-slider-vertical .jw-rail,
-.jw-skin-ethan .jw-slider-vertical .jw-buffer,
-.jw-skin-ethan .jw-slider-vertical .jw-progress {
+.jw-skin-imdb .jw-slider-vertical .jw-rail,
+.jw-skin-imdb .jw-slider-vertical .jw-buffer,
+.jw-skin-imdb .jw-slider-vertical .jw-progress {
   width: .2em;
 }
 
-.jw-skin-ethan .jw-knob {
+.jw-skin-imdb .jw-knob {
   left: -0.04999999999999999em;
 }
 
-.jw-skin-ethan .jw-volume-tip {
+.jw-skin-imdb .jw-volume-tip {
   width: 100%;
   left: -35%;
 }
 
-.jw-skin-ethan .jw-text-duration {
+.jw-skin-imdb .jw-text-duration {
   color: blue;
 }
 
 /* The parent wrapper that contains the controlbar element positioning groups.  */
-.jw-skin-ethan .jw-group {
+.jw-skin-imdb .jw-group {
   vertical-align: middle;
 }
 
-.jw-skin-ethan .jw-controlbar-right-group .jw-icon-tooltip:before,
-.jw-skin-ethan .jw-controlbar-right-group .jw-icon-inline:before {
+.jw-skin-imdb .jw-controlbar-right-group .jw-icon-tooltip:before,
+.jw-skin-imdb .jw-controlbar-right-group .jw-icon-inline:before {
   border-left: 1px solid #666;
 }
 
-.jw-skin-ethan .jw-controlbar-right-group .jw-icon-inline:first-child:before {
+.jw-skin-imdb .jw-controlbar-right-group .jw-icon-inline:first-child:before {
   border: none;
 }
 
-.jw-skin-ethan .jw-dock .jw-dock-button {
+.jw-skin-imdb .jw-dock .jw-dock-button {
   background: #000;
   border-radius: 50%;
 }
 
-.jw-skin-ethan .jw-dock .jw-overlay {
+.jw-skin-imdb .jw-dock .jw-overlay {
   background: #000;
   border-radius: 2.5em;
 }
 
-.jw-skin-ethan .jw-overlay .jw-option.jw-active-option {
+.jw-skin-imdb .jw-overlay .jw-option.jw-active-option {
   background-color: #ff0046;
   color: #fff;
 }
 
-.jw-skin-ethan .jw-icon-hd,
-.jw-skin-ethan .jw-icon-cc {
+.jw-skin-imdb .jw-icon-hd,
+.jw-skin-imdb .jw-icon-cc {
   color: #ff0046;
 }
 
-.jw-skin-ethan .jw-icon-hd.jw-off,
-.jw-skin-ethan .jw-icon-cc.jw-off {
+.jw-skin-imdb .jw-icon-hd.jw-off,
+.jw-skin-imdb .jw-icon-cc.jw-off {
   color: white;
 }
 
 /* Sets the character for the HD button */
-.jw-skin-ethan .jw-icon-hd.jw-off:before {
+.jw-skin-imdb .jw-icon-hd.jw-off:before {
   content: "\e60a";
 }
 
 /* Sets the character for the CC button */
-.jw-skin-ethan .jw-icon-cc.jw-off:before {
+.jw-skin-imdb .jw-icon-cc.jw-off:before {
   content: "\e605";
 }
 
 /* Sets the border style for the time overlay menus. */
-.jw-skin-ethan .jw-time-tip,
-.jw-skin-ethan .jw-menu,
-.jw-skin-ethan .jw-volume-tip,
-.jw-skin-ethan .jw-skip {
+.jw-skin-imdb .jw-time-tip,
+.jw-skin-imdb .jw-menu,
+.jw-skin-imdb .jw-volume-tip,
+.jw-skin-imdb .jw-skip {
   border: 1px solid #333;
 }
 
 /* Adds padding and margin to the timeslider time tooltip.*/
-.jw-skin-ethan .jw-time-tip {
+.jw-skin-imdb .jw-time-tip {
   padding: 0.2em;
   bottom: 1.3em;
 }
 
 /* Adjusts the margin of the vertical volume slider for borders spacing*/
-.jw-skin-ethan .jw-menu,
-.jw-skin-ethan .jw-volume-tip {
+.jw-skin-imdb .jw-menu,
+.jw-skin-imdb .jw-volume-tip {
   bottom: .15em;
 }
 
 /* Styles the skip icon wrapper.*/
-.jw-skin-ethan .jw-skip {
+.jw-skin-imdb .jw-skip {
   background: #000;
   padding: 0.4em;
   border-radius: 1em;
@@ -229,18 +229,18 @@
 
 /* Sets the font color and size for the skip text. */
 
-.jw-skin-ethan .jw-skip .jw-text,
-.jw-skin-ethan .jw-skip .jw-icon-inline {
+.jw-skin-imdb .jw-skip .jw-text,
+.jw-skin-imdb .jw-skip .jw-icon-inline {
   color: #ffffff;
   font-size: 0.7em;
 }
 
 /* Sets the font color for the CC icon when it is active. */
-.jw-skin-ethan .jw-icon-cc {
+.jw-skin-imdb .jw-icon-cc {
   color: #ff0046;
 }
 
 /* Sets the font color for the CC icon when it is not active. */
-.jw-skin-ethan .jw-icon-cc.jw-off {
+.jw-skin-imdb .jw-icon-cc.jw-off {
   color: #ffffff;
 }
