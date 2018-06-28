@@ -15,7 +15,7 @@
      <NonLinearAds width="125" height="125">
       <NonLinear id="GDFP" width="480" height="70" minSuggestedDuration="00:00:05" scalable="true" maintainAspectRatio="true">
         <NonLinearClickThrough><![CDATA[https://www.theoplayer.com/]]></NonLinearClickThrough>
-       <StaticResource creativeType="image/png"><![CDATA[https://cdn.theoplayer.com/demos/ads/companionads/theoplayer.jpg]]></StaticResource>
+       <StaticResource creativeType="image/png"><![CDATA[https://patrickdanino.github.io/Test/theoplayer.jpg]]></StaticResource>
       </NonLinear>
      </NonLinearAds>
     </Creative>
