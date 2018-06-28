@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vmap:VMAP xmlns:vmap="http://www.iab.net/vmap-1.0" version="1.0">
+<vmap:AdBreak breakId="0.0.0.1676250981" breakType="linear" timeOffset="start">
+<vmap:AdSource allowMultipleAds="true" followRedirects="true" id="1">
+<vmap:VASTAdData>
+
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+ <Ad id="697203616">
+  <InLine>
+   <AdSystem>GDFP</AdSystem>
+   <AdTitle>THEOplayer NonLinearImage</AdTitle>
+   <Description><![CDATA[External NCA1C1L1 NonLinearImage ad]]></Description>
+   <Creatives>
+    <Creative id="57857370856" sequence="1">
+     <NonLinearAds width="125" height="125">
+      <NonLinear id="GDFP" width="480" height="70" minSuggestedDuration="00:00:05" scalable="true" maintainAspectRatio="true">
+        <NonLinearClickThrough><![CDATA[https://www.theoplayer.com/]]></NonLinearClickThrough>
+       <StaticResource creativeType="image/png"><![CDATA[https://cdn.theoplayer.com/demos/ads/companionads/theoplayer.jpg]]></StaticResource>
+      </NonLinear>
+     </NonLinearAds>
+    </Creative>
+   </Creatives>
+  </InLine>
+ </Ad>
+</VAST>
+
+</vmap:VASTAdData>
+</vmap:AdSource>
+<vmap:TrackingEvents />
+</vmap:AdBreak>
+</vmap:VMAP>
