@@ -6,7 +6,7 @@
 <Ad id="6804591580801">
   <Wrapper>
     <AdSystem>Amazon</AdSystem>
-    <VASTAdTagURI><![CDATA[https://ad.doubleclick.net/ddm/pfadx/N2724.6445.IMDB/B20908300.218814565;sz=0x0;ord=6,521,505,538,507,175,023;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;dcmt=text/xml]]></VASTAdTagURI>
+    <VASTAdTagURI><![CDATA[https://patrickdanino.github.io/Test/VAST-VariableContent.xml]]></VASTAdTagURI>
     <Error><![CDATA[https://aax-us-east.amazon-adsystem.com/x/px/QiESzZA8LQ6-kHQDR1XVLZEAAAFkTfN9ywEAAADMBEVckDM/%7B%22c%22%3A%22video%22%2C%22err%22%3A1%2C%22src%22%3A204%7D]]></Error>
     <Impression><![CDATA[https://aax-us-east.amazon-adsystem.com/v/imp?b=InJ5keio_EIVn0oLg8TFu0wAAAFkTfN94wEAAADMBGdZK14&bi=lU2pKtrrFCl9MAYxR.jwphcqDhRz2OKsGkeUKbKcRuUEzO42vAJjPwABW4Qv4oYY60QgMSw.Zqn1ZVQ7VSJ1WD1l5z9rU4ONIoZlbYIFocCNt5bdRhD1.LgD6WwU-pjZv1Mh-XTGTQ9NFWCMFS4JiusFUlL9Zw11Fm6e2o.fnaRBebd57BCZrM9BA-4Bqqb6.HLelFSRTw.fIt91pC78pFwNNMhgR1Qgzcig6lXSvoZGoP2jMJjsU0aPNRMAPRk5C6tN.Vn.LOd0EsfKk3tWEu4I5tQlA6aZxyv1XfrlkxE0ZZDt27Drt0ciPDfXr0Ie9QuH2i5siNh4bouLw5vXangQlPD7gP01nis0citiqXn.t6rcrjxjmr0wL9nnwh8f2CqhcxRqvWFN.cdNbZjZXVefIzg-Frf3.GIY6czpMJ4_]]></Impression><Impression><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DIRLNkDwtDr6QdANHVdUtkQ%26e%3DvideoImpression%26a%3D6804591580801%26c%3D5681803950201%26s%3Dpda&ex-fch=416719&cb=2,274,678,229,529,112,341]]></Impression>
        <Impression><![CDATA[https://pixel.adsafeprotected.com/rfw/st/160006/24645390/skeleton.gif]]></Impression>
