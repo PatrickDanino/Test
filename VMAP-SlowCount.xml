@@ -50,39 +50,7 @@
                       <MediaFile height="360" width="640" bitrate="447" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/89ae239f-105e-4337-a46e-b59341562fa2/450-640x360.mp4</MediaFile>
                       <MediaFile height="360" width="640" bitrate="300" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/89ae239f-105e-4337-a46e-b59341562fa2/300-640x360.mp4</MediaFile>
                   </MediaFiles>
-                  <AdParameters>
-                    <![CDATA[
-                      <videoUrl>https://cdn-a.amazon-adsystem.com/video/89ae239f-105e-4337-a46e-b59341562fa2/1350-640x360.flv</videoUrl>
-                      <clickUrl>https://aax-us-east.amazon-adsystem.com/x/c/QhK1oKoTj4dQ1x_CEg6nWLAAAAFkhYKigQEAAADMBOJJsWc/https://ad.doubleclick.net/ddm/clk/422849213;224692556;l</clickUrl>
-                      <adDuration>15</adDuration>
-                      <adPrefUrl>https://www.amazon.com/adprefs</adPrefUrl>
-                      <showAdNotice>0</showAdNotice>
-                      <expandableAdChoices>1</expandableAdChoices>
-                      <JsParameters>
-                        {
-                          "videos": [
-                            {"url": "https://cdn-a.amazon-adsystem.com/video/89ae239f-105e-4337-a46e-b59341562fa2/3000-640x360.mp4", "mimetype": "video/mp4"},
-                            {"url": "https://cdn-a.amazon-adsystem.com/video/89ae239f-105e-4337-a46e-b59341562fa2/2000-640x360.mp4", "mimetype": "video/mp4"},
-                            {"url": "https://cdn-a.amazon-adsystem.com/video/89ae239f-105e-4337-a46e-b59341562fa2/1350-640x360.flv", "mimetype": "video/x-flv"},
-                            {"url": "https://cdn-a.amazon-adsystem.com/video/89ae239f-105e-4337-a46e-b59341562fa2/1350-640x360.mp4", "mimetype": "video/mp4"},
-                            {"url": "https://cdn-a.amazon-adsystem.com/video/89ae239f-105e-4337-a46e-b59341562fa2/1350-640x360.webm", "mimetype": "video/webm"},
-                            {"url": "https://cdn-a.amazon-adsystem.com/video/89ae239f-105e-4337-a46e-b59341562fa2/900-640x360.mp4", "mimetype": "video/mp4"},
-                            {"url": "https://cdn-a.amazon-adsystem.com/video/89ae239f-105e-4337-a46e-b59341562fa2/600-640x360.mp4", "mimetype": "video/mp4"},
-                            {"url": "https://cdn-a.amazon-adsystem.com/video/89ae239f-105e-4337-a46e-b59341562fa2/450-640x360.mp4", "mimetype": "video/mp4"},
-                            {"url": "https://cdn-a.amazon-adsystem.com/video/89ae239f-105e-4337-a46e-b59341562fa2/300-640x360.mp4", "mimetype": "video/mp4"}
-                          ],
-                          "duration": 15,
-                          "skippableState": false,
-                          "clickThruUrl": "https://aax-us-east.amazon-adsystem.com/x/c/QhK1oKoTj4dQ1x_CEg6nWLAAAAFkhYKigQEAAADMBOJJsWc/https://ad.doubleclick.net/ddm/clk/422849213;224692556;l",
-                          "adCfid": 1778764510601,
-                          "creativeCfid": 1146409790801,
-                          "vpaidVersion": "2.0",
-                          "showAdChoices": false,
-                          "adChoicesLocale": "US"
-                        }
-                      </JsParameters>
-                    ]]>
-                  </AdParameters>
+                  
               </Linear>
           </Creative>
       </Creatives>
