@@ -5,48 +5,27 @@
 <vmap:VASTAdData>
 
 
-<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
-<Ad id="1234567">
-<InLine>
-<AdSystem></AdSystem>
-<AdTitle>NonLinear VPAID JS</AdTitle>
-<Description>Vpaid Linear Video Ad</Description>
-<Error>https://www.example.com/error</Error>
-<Impression>https://www.example.com/impression</Impression>
-<Creatives>
-<Creative sequence="1">
-<NonLinearAds>
-<TrackingEvents>
-<Tracking event="start">https://www.example.com/start</Tracking>
-<Tracking event="firstQuartile">https://www.example.com/firstQuartile</Tracking>
-<Tracking event="midpoint">https://www.example.com/midpoint</Tracking>
-<Tracking event="thirdQuartile">https://www.example.com/thirdQuartile</Tracking>
-<Tracking event="complete">https://www.example.com/complete</Tracking>
-<Tracking event="mute">https://www.example.com/mute</Tracking>
-<Tracking event="rewind">https://www.example.com/rewind</Tracking>
-<Tracking event="pause">https://www.example.com/pause</Tracking>
-<Tracking event="resume">https://www.example.com/resume</Tracking>
-<Tracking event="fullscreen">https://www.example.com/fullscreen</Tracking>
-<Tracking event="creativeView">https://www.example.com/creativeView</Tracking>
-<Tracking event="acceptInvitation">https://www.example.com/acceptInvitation</Tracking>
-</TrackingEvents>
-<NonLinear apiFramework="VPAID" width="1" height="1" id="overlay-1">
-<AdParameters>
-<![CDATA[{"overlays":[], "videos":[] }]]>
-</AdParameters>
-<StaticResource creativeType="application/javascript">
-    <![CDATA[ https://patrickdanino.github.io/Test/VPAID-NonLinearTest.js ]]>
-</StaticResource>
-<NonLinearClickThrough id="GDFP">
-<![CDATA[ https://google.com ]]>
-</NonLinearClickThrough>
-</NonLinear>
-</NonLinearAds>
-</Creative>
-</Creatives>
-</InLine>
-</Ad>
-</VAST>
+    <VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast_2.0.1-creativeView.xsd" version="2.0">
+        <Ad id="moat_ad">
+            <InLine>
+                <AdSystem>2.0</AdSystem>
+                <AdTitle>Rolex_-_ROLEX_INTL_Cinema-Phase-2_2018-26395396</AdTitle>
+                    <Impression></Impression>
+                <Creatives>
+                    <Creative>
+                        <Linear>
+                            <Duration>00:00:10</Duration>
+                              
+                            <MediaFiles>
+                                 <MediaFile type="application/javascript" apiFramework="VPAID" height="1080" width="1920" delivery="progressive"> <![CDATA[https://svastx.moatads.com/mindshareglobalrolexvpaid251916711767/moatwrapper.js#vast=https%3a%2f%2fbs.serving-sys.com%2fServing%3fcn%3ddisplay%26c%3d23%26pl%3dVAST%26pli%3d26395396%26PluID%3d0%26pos%3d2186%26ord%3d555426944%26cim%3d1&level1=925480&level2=IMDB%20UK%20-%20RunofSite&level3=26395396&level4=vpaid&slicer1=undefined&slicer2=undefined&pcode=mindshareglobalrolexvpaid251916711767&spvb=1&zMoatADV=21620]]> </MediaFile>
+                            </MediaFiles>
+                        </Linear>
+                    </Creative>
+                        
+                </Creatives>
+            </InLine>
+        </Ad>
+    </VAST>
 
 </vmap:VASTAdData>
 </vmap:AdSource>
