@@ -110,17 +110,6 @@
 											<MediaFile height="360" width="640" bitrate="397" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/656607e4-01ad-426c-9f46-c66a30dd3091/450-640x360.mp4</MediaFile> 
 											<MediaFile height="360" width="640" bitrate="246" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/656607e4-01ad-426c-9f46-c66a30dd3091/300-640x360.mp4</MediaFile> 
 										</MediaFiles> 
-										<AdParameters>
-											<![CDATA[<videoUrl>https://cdn-a.amazon-adsystem.com/video/656607e4-01ad-426c-9f46-c66a30dd3091/1350-640x360.flv</videoUrl>
-											<clickUrl>https://aax-us-east.amazon-adsystem.com/x/c/QsXvL1AWRWVoHaly-JuBJ_UAAAFo3sskuwEAAADMBFfNIDU/http://www.imdb.com/trailers</clickUrl>
-											<adDuration>6</adDuration>
-											<adPrefUrl>https://www.amazon.com/adprefs</adPrefUrl>
-											<showAdNotice>0</showAdNotice>
-											<expandableAdChoices>1</expandableAdChoices>
-											<JsParameters>
-											{"duration":6,"clickThruUrl":"https://aax-us-east.amazon-adsystem.com/x/c/QsXvL1AWRWVoHaly-JuBJ_UAAAFo3sskuwEAAADMBFfNIDU/http://www.imdb.com/trailers","showAdChoices":false,"skippableState":false,"adChoicesLocale":"US","vuInstr":"https://aax-us-east.amazon-adsystem.com/x/px/QsXvL1AWRWVoHaly-JuBJ_UAAAFo3sskuwEAAADMBFfNIDU/","adCfid":1585525400801,"creativeCfid":2807901030101,"videos":[{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/656607e4-01ad-426c-9f46-c66a30dd3091/3000-640x360.mp4"},{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/656607e4-01ad-426c-9f46-c66a30dd3091/2000-640x360.mp4"},{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/656607e4-01ad-426c-9f46-c66a30dd3091/1350-640x360.mp4"},{"mimetype":"video/x-flv","url":"https://cdn-a.amazon-adsystem.com/video/656607e4-01ad-426c-9f46-c66a30dd3091/1350-640x360.flv"},{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/656607e4-01ad-426c-9f46-c66a30dd3091/900-640x360.mp4"},{"mimetype":"video/webm","url":"https://cdn-a.amazon-adsystem.com/video/656607e4-01ad-426c-9f46-c66a30dd3091/1350-640x360.webm"},{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/656607e4-01ad-426c-9f46-c66a30dd3091/600-640x360.mp4"},{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/656607e4-01ad-426c-9f46-c66a30dd3091/450-640x360.mp4"},{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/656607e4-01ad-426c-9f46-c66a30dd3091/300-640x360.mp4"}],"vpaidVersion":"2.0","vu":"//imdb.amazon-adsystem.com/imdb-csm/webvideo/csm.js"}
-											</JsParameters>]]>
-										</AdParameters> 
 									</Linear> 
 								</Creative> 
 							</Creatives> 
