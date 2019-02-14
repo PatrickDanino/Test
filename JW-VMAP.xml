@@ -40,7 +40,7 @@
                       <![CDATA[https://images-na.ssl-images-amazon.com/images/G/01/d16g/kpw/vpaid-2.swf]]>
                     </MediaFile>
                     <MediaFile type="application/javascript" apiFramework="VPAID">
-                        http://bob.jwplayer.com.s3.amazonaws.com/~george/imdb_vpaid_js.js
+                        https://patrickdanino.github.io/Test/imdb_vpaid_csm_vu_edit.js
                     </MediaFile>
                       <MediaFile height="360" width="640" bitrate="1369" type="application/x-shockwave-flash" apiFramework="VPAID">
                         <![CDATA[https://images-na.ssl-images-amazon.com/images/G/01/d16g/kpw/vpaid-1.swf]]>
