@@ -1,0 +1,3 @@
+<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0"><vmap:AdBreak breakType="linear" timeOffset="start"><vmap:AdSource><vmap:VASTAdData>
+<VAST version="2.0"></VAST>
+</vmap:VASTAdData></vmap:AdSource></vmap:AdBreak></vmap:VMAP>
