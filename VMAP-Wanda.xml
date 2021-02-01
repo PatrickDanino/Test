@@ -1,6 +1,6 @@
-<vmap:VMAP xmlns:vmap="https://www.iab.net/videosuite/vmap" version="1.0"><vmap:AdBreak breakType="linear" timeOffset="start"><vmap:AdSource><vmap:VASTAdData>
+<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0"><vmap:AdBreak breakType="linear" timeOffset="start"><vmap:AdSource><vmap:VASTAdData>
 
-<VAST xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
   <Ad id="5067761830501">
     <InLine>
       <AdSystem>Amazon</AdSystem>
