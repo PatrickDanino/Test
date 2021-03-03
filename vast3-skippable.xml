@@ -18,7 +18,7 @@
                     <MediaFiles>
                       <MediaFile type="application/javascript" delivery="progressive" width="0" height="0"
                         apiFramework="VPAID">
-                        https://patrickdanino.github.io/Test/vpaid-sample.js
+                        https://patrickdanino.github.io/Test/vpaid.js
                       </MediaFile>
                     </MediaFiles>
                     <AdParameters><![CDATA[<videoUrl>https://cdn-a.amazon-adsystem.com/video/1368bdff-32da-494c-bf4c-89fb9b790129/FLV-1350kbs-29.97fps-44.1khz-96kbs.flv</videoUrl>
