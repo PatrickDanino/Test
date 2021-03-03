@@ -327,6 +327,14 @@ VpaidVideoPlayer.prototype.timeUpdateHandler_ = function() {
         this.callEvent_(lastQuartileEvent);
         this.lastQuartileIndex_ += 1;
     }
+    
+    if (this.videoSlot_.currentTime > 5) {
+        var skipState = this.attributes_['skippableState'];
+        if (!skipState) {
+            this.attributes_['skippableState'] = true;
+            this.callEvent_('AdSkippableStateChange');
+        }
+    }
 };
 
 VpaidVideoPlayer.prototype.updateVideoSlot_ = function() {
