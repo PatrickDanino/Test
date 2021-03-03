@@ -328,7 +328,7 @@ VpaidVideoPlayer.prototype.timeUpdateHandler_ = function() {
         this.lastQuartileIndex_ += 1;
     }
     
-    if (this.videoSlot_.currentTime > 5) {
+    if (this.videoSlot_.currentTime > 6) {
         var skipState = this.attributes_['skippableState'];
         if (!skipState) {
             this.attributes_['skippableState'] = true;
