@@ -56,7 +56,7 @@
 <vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll-1"><vmap:AdSource><vmap:VASTAdData>
 
 <VAST version="4.2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iab.com/VAST">
-  <Ad id="20001" >
+  <Ad id="20002" >
     <InLine>
       <AdSystem version="1">iabtechlab</AdSystem>
       <Error><![CDATA[https://example.com/error]]></Error>
@@ -107,7 +107,7 @@
 <vmap:AdBreak timeOffset="end" breakType="linear" breakId="postroll"><vmap:AdSource><vmap:VASTAdData>
 
 <VAST version="4.2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iab.com/VAST">
-  <Ad id="20001" >
+  <Ad id="20003" >
     <InLine>
       <AdSystem version="1">iabtechlab</AdSystem>
       <Error><![CDATA[https://example.com/error]]></Error>
