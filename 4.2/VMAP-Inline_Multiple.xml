@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0">
-
-<vmap:AdBreak breakType="linear" timeOffset="start"><vmap:AdSource><vmap:VASTAdData>
+<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0"><vmap:AdBreak breakType="linear" timeOffset="start"><vmap:AdSource><vmap:VASTAdData>
 
 <VAST version="4.2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iab.com/VAST">
   <Ad id="20001" >
@@ -51,5 +49,3 @@
 </VAST>
 
 </vmap:VASTAdData></vmap:AdSource></vmap:AdBreak></vmap:VMAP>
-
-</vmap:VMAP>
