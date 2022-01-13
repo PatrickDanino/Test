@@ -50,7 +50,7 @@
 
 </vmap:VASTAdData></vmap:AdSource></vmap:AdBreak>
 
-<vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll-1"><vmap:AdSource><vmap:VASTAdData>
+<vmap:AdBreak timeOffset="00:00:10.000" breakType="linear" breakId="midroll-1"><vmap:AdSource><vmap:VASTAdData>
 
 <VAST version="4.2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iab.com/VAST">
   <Ad id="20002" >
