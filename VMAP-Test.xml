@@ -32,16 +32,7 @@
                     <ClickTracking><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3D9PITUA1U6L38hK3IbGA9Yw%26e%3DvideoClick%26a%3D5701981660701%26c%3D2592092600101%26s%3Dpda%26u%3D9PITUA1U6L38hK3IbGA9Yw&ex-fch=416719&cb=3,322,505,158,000,021,632]]></ClickTracking>
                   <ClickTracking><![CDATA[https://aax-us-east.amazon-adsystem.com/x/px/QvTyE1ANVOi9_IStyGxgPWMAAAFoluy_sAEAAADMBPYHEAQ/%7B%22c%22%3A%22video%22%2C%22clk%22%3A1%2C%22src%22%3A204%7D]]></ClickTracking></VideoClicks>
                   <MediaFiles>
-                      <MediaFile height="1080" width="1920" bitrate="9356" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/e8556236-38f2-4f05-92fa-dd8ea6d289d8/10000-1920x1080.mp4</MediaFile>
-                      <MediaFile height="1080" width="1920" bitrate="2861" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/e8556236-38f2-4f05-92fa-dd8ea6d289d8/3000-1920x1080.mp4</MediaFile>
-                      <MediaFile height="1080" width="1920" bitrate="1911" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/e8556236-38f2-4f05-92fa-dd8ea6d289d8/2000-1920x1080.mp4</MediaFile>
-                      <MediaFile height="1080" width="1920" bitrate="1343" type="video/webm" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/e8556236-38f2-4f05-92fa-dd8ea6d289d8/1350-1920x1080.webm</MediaFile>
-                      <MediaFile height="1080" width="1920" bitrate="1317" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/e8556236-38f2-4f05-92fa-dd8ea6d289d8/1350-1920x1080.mp4</MediaFile>
-                      <MediaFile height="1080" width="1920" bitrate="900" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/e8556236-38f2-4f05-92fa-dd8ea6d289d8/900-1920x1080.mp4</MediaFile>
-                      <MediaFile height="1080" width="1920" bitrate="837" type="video/x-flv" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/e8556236-38f2-4f05-92fa-dd8ea6d289d8/1350-1920x1080.flv</MediaFile>
-                      <MediaFile height="1080" width="1920" bitrate="604" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/e8556236-38f2-4f05-92fa-dd8ea6d289d8/600-1920x1080.mp4</MediaFile>
-                      <MediaFile height="1080" width="1920" bitrate="450" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/e8556236-38f2-4f05-92fa-dd8ea6d289d8/450-1920x1080.mp4</MediaFile>
-                      <MediaFile height="1080" width="1920" bitrate="299" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/e8556236-38f2-4f05-92fa-dd8ea6d289d8/300-1920x1080.mp4</MediaFile>
+                      <MediaFile height="1080" width="1920" bitrate="9356" type="video/mp4" delivery="progressive">https://patrickdanino.github.io/Test/Video.mp4</MediaFile>
                   </MediaFiles>
               </Linear>
           </Creative>
