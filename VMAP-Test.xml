@@ -11,7 +11,7 @@
        <Impression><![CDATA[https://ad.doubleclick.net/ddm/ad/N421001.279198IMDB/B22110971.236566554;sz=1x1;u=__AP1_np_dv_[InsertCachebuster]PA__;ord=300,409,662,382,792,348;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?]]></Impression> <Impression><![CDATA[https://pixel.mtrcs.samba.tv/v2/vtr/turner/iamthenight103018/amazonimdb/impression?c=8,948,024,979,631,817,267&sa_campaign=7503917560201&sa_vendor=9671295374273&sa_li=5701981660701&sa_cr=2592092600101&sa_deviceid=__AAX_IDFA__]]></Impression> <Impression><![CDATA[https://tps.doubleverify.com/visit.jpg?ctx=2709085&cmp=22110971&sid=3064942&plc=236566554&advid=868983&adsrv=1&btreg=&btadsrv=&crt=&tagtype=video&dvtagver=6.1.img&]]></Impression>
       <Creatives>
           <Creative sequence="1" id="2592092600101">
-              <Linear skipoffset='00:00:03'>
+              <Linear skipoffset='00:00:30'>
               <Duration>00:00:15</Duration>
                   <TrackingEvents>
    <Tracking event="start"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3D9PITUA1U6L38hK3IbGA9Yw%26e%3DvideoStart%26a%3D5701981660701%26c%3D2592092600101%26s%3Dpda%26u%3D9PITUA1U6L38hK3IbGA9Yw&ex-fch=416719&cb=3,310,316,221,463,683,745]]></Tracking>
@@ -39,7 +39,7 @@
       </Creatives>
       <Extensions>
       <Extension type="skippable">
-        <SkipOffset showTimer="true">00:00:03</SkipOffset>
+        <SkipOffset showTimer="true">00:00:30</SkipOffset>
         <MinAdLength>00:00:19</MinAdLength>
       </Extension>
       <Extension type="duration">
