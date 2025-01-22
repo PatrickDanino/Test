@@ -6,7 +6,7 @@
 					<Ad id="577332183332607469">
                         <Wrapper>
 							<VASTAdTagURI>
-								<![CDATA[https://patrickdanino.github.io/Test/VAST-Apple-Severance.xml?_media=1&amp;ctx=15173683&amp;cmp=210135&amp;sid=6108&amp;plc=4697769&amp;advid=3484&amp;adsrv=118&amp;psf=0&amp;_vast=https%3A%2F%2Frtr.innovid.com%2Fr1.67606da2d91416.79342977%3Bcb%3D%7Bs1%7D&amp;_s1=${u.getRandomNumber()}&amp;_api=[APIFRAMEWORKS]&amp;_ssm=[SERVERSIDE]&amp;_tsm=[TIMESTAMP]&amp;gdpr=0&amp;gdpr_consent=&amp;_abm=[APPBUNDLE]&amp;_pum=[PAGEURL]]]>
+								<![CDATA[https://patrickdanino.github.io/Test/4.0/Video_Clicks_and_click_tracking-Inline-test.xml?_media=1&amp;ctx=15173683&amp;cmp=210135&amp;sid=6108&amp;plc=4697769&amp;advid=3484&amp;adsrv=118&amp;psf=0&amp;_vast=https%3A%2F%2Frtr.innovid.com%2Fr1.67606da2d91416.79342977%3Bcb%3D%7Bs1%7D&amp;_s1=${u.getRandomNumber()}&amp;_api=[APIFRAMEWORKS]&amp;_ssm=[SERVERSIDE]&amp;_tsm=[TIMESTAMP]&amp;gdpr=0&amp;gdpr_consent=&amp;_abm=[APPBUNDLE]&amp;_pum=[PAGEURL]]]>
 							</VASTAdTagURI>
 						</Wrapper>
 					</Ad>
