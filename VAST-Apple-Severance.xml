@@ -1,0 +1,111 @@
+<VAST version="2.0">
+	<Ad id="1bsme4">
+		<InLine>
+			<AdSystem>Innovid Ads</AdSystem>
+			<AdTitle>
+				<![CDATA[SEV2_Pressure_Avail_15_US_16x9_Pre-Roll_SEV215ATV19H_PRHQ]]>
+			</AdTitle>
+			<Error>
+				<![CDATA[https://vtrk.dv.tech/?tid=ZW-12000000&amp;ec=vast&amp;cid=e800a012-3a75-42bb-b565-e4759be562a6&amp;el=https%3A%2F%2Frtr.innovid.com%2Fr1.67606da2d91416.79342977%3Bcb%3D%24%257Bu.getRandomNumber()%257D&amp;ea=error&amp;cm114=1&amp;cm115=20&amp;cd101=vast&amp;cd102=src&amp;cd111=inline&amp;cd112=unwrapped&amp;cd116=vast%3Ainnovid.com%3A20%3A1%3A0&amp;cd117=2&amp;cd170=118&amp;cd183=dvot_2024-12-11_3153aef0c_ec5e298&amp;cd188=SEA&amp;cd189=cloudflare&amp;cd190=15173683&amp;cd191=210135&amp;cd192=6108&amp;cd193=4697769&amp;cd194=3484&amp;cd196=1&amp;cd141=%5BAPIFRAMEWORKS%5D&amp;cd142=%5BTIMESTAMP%5D&amp;cd10=[ERRORCODE]&amp;cd143=[TIMESTAMP]&amp;z=[CACHEBUSTING]&amp;redir=https://tpsc-video-uw.doubleverify.com/visit.jpg?epu=https%3A%2F%2Fs.innovid.com%2F1x1.gif%3Fproject_hash%3D1icp8s%26client_id%3D3484%26video_id%3D1426650%26channel_id%3D4687275%26publisher_id%3D6108%26placement_tag_id%3D0%26project_state%3D2%26r%3D1737571073473%26placement_hash%3D1bsme4%26action%3Derror%26event_id%3Dvast_error%26event_value%3D[ERRORCODE]%26ivc_exdata%3Div_geo_dma%253D819%2526iv_geo_country%253DUS%2526iv_geo_city%253DRedmond%2526iv_geo_state%253DWA%2526iv_geo_zip%253D98052%2526iv_geo_lat%253D47.6711%2526iv_geo_lon%253D-122.1253&amp;dvp_epu=1&amp;ctx=818052&amp;cmp=DV024064&amp;sid=1234&amp;plc=1234&amp;advid=818053&amp;crt=vastError&amp;vasttrkevt=impression&amp;dvp_ctx=15173683&amp;dvp_cmp=210135&amp;dvp_sid=6108&amp;dvp_plc=4697769&amp;dvp_advid=3484&amp;dvp_crt=1islst&amp;tagtype=video&amp;adsrv=118&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6&amp;dvtagver=dvot_2024-12-11_3153aef0c_ec5e298&amp;vmftype=video&amp;dvp_cfbs=99&amp;dvp_infra=cloudflare&amp;dvp_zjsver=0.28.0&amp;gdpr=0&amp;vstvr=2.0-i&amp;essd=[SERVERSIDE]&amp;dvp_media=1&amp;dvp_psf=0&amp;verr=[ERRORCODE]]]>
+			</Error>
+			<Impression>
+				<![CDATA[https://s.innovid.com/1x1.gif?project_hash=1icp8s&amp;client_id=3484&amp;video_id=1426650&amp;channel_id=4687275&amp;publisher_id=6108&amp;placement_tag_id=0&amp;project_state=2&amp;r=1737571073473&amp;placement_hash=1bsme4&amp;action=init&amp;ivc_exdata=iv_geo_dma%3D819%26iv_geo_country%3DUS%26iv_geo_city%3DRedmond%26iv_geo_state%3DWA%26iv_geo_zip%3D98052%26iv_geo_lat%3D47.6711%26iv_geo_lon%3D-122.1253]]>
+			</Impression>
+			<Impression>
+				<![CDATA[https://rtr.innovid.com/placement/1bsme4/uuid?cb=b8ed741a-2880-a14a-8fbb-db04660d7bdf&amp;ivc_exdata=iv_geo_dma%3D819%26iv_geo_country%3DUS%26iv_geo_city%3DRedmond%26iv_geo_state%3DWA%26iv_geo_zip%3D98052%26iv_geo_lat%3D47.6711%26iv_geo_lon%3D-122.1253]]>
+			</Impression>
+			<Impression>
+				<![CDATA[https://tpsc-video-uw.doubleverify.com/visit.jpg?vstevt=2&amp;tagtype=video&amp;ctx=15173683&amp;cmp=210135&amp;sid=6108&amp;plc=4697769&amp;advid=3484&amp;adsrv=118&amp;crt=1islst&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6&amp;dvtagver=dvot_2024-12-11_3153aef0c_ec5e298&amp;vad=15000&amp;vmftype=video&amp;dvp_cfbs=99&amp;dvp_infra=cloudflare&amp;dvp_zjsver=0.28.0&amp;gdpr=0&amp;vstvr=2.0-i&amp;dvp_media=1&amp;dvp_psf=0&amp;app=[APPBUNDLE]&amp;essd=[SERVERSIDE]]]>
+			</Impression>
+			<Impression>
+				<![CDATA[https://vtrk.dv.tech/?tid=ZW-12000000&amp;ec=vast&amp;cid=e800a012-3a75-42bb-b565-e4759be562a6&amp;el=https%3A%2F%2Frtr.innovid.com%2Fr1.67606da2d91416.79342977%3Bcb%3D%24%257Bu.getRandomNumber()%257D&amp;ea=impression&amp;cm114=1&amp;cm115=20&amp;cd101=vast&amp;cd102=src&amp;cd111=inline&amp;cd112=unwrapped&amp;cd116=vast%3Ainnovid.com%3A20%3A1%3A0&amp;cd117=2&amp;cd170=118&amp;cd183=dvot_2024-12-11_3153aef0c_ec5e298&amp;cd188=SEA&amp;cd189=cloudflare&amp;cd190=15173683&amp;cd191=210135&amp;cd192=6108&amp;cd193=4697769&amp;cd194=3484&amp;cd196=1&amp;cd141=%5BAPIFRAMEWORKS%5D&amp;cd142=%5BTIMESTAMP%5D&amp;cd143=[TIMESTAMP]&amp;z=[CACHEBUSTING]]]>
+			</Impression>
+			<Creatives>
+				<Creative id="1islst">
+					<Linear>
+						<Duration>00:00:15</Duration>
+						<TrackingEvents>
+							<Tracking event="start">
+								<![CDATA[https://s.innovid.com/1x1.gif?project_hash=1icp8s&amp;client_id=3484&amp;video_id=1426650&amp;channel_id=4687275&amp;publisher_id=6108&amp;placement_tag_id=0&amp;project_state=2&amp;r=1737571073473&amp;placement_hash=1bsme4&amp;action=play&amp;ivc_exdata=iv_geo_dma%3D819%26iv_geo_country%3DUS%26iv_geo_city%3DRedmond%26iv_geo_state%3DWA%26iv_geo_zip%3D98052%26iv_geo_lat%3D47.6711%26iv_geo_lon%3D-122.1253]]>
+							</Tracking>
+							<Tracking event="firstQuartile">
+								<![CDATA[https://s.innovid.com/1x1.gif?project_hash=1icp8s&amp;client_id=3484&amp;video_id=1426650&amp;channel_id=4687275&amp;publisher_id=6108&amp;placement_tag_id=0&amp;project_state=2&amp;r=1737571073473&amp;placement_hash=1bsme4&amp;action=vpoint&amp;event_id=percent&amp;event_value=25&amp;ivc_exdata=iv_geo_dma%3D819%26iv_geo_country%3DUS%26iv_geo_city%3DRedmond%26iv_geo_state%3DWA%26iv_geo_zip%3D98052%26iv_geo_lat%3D47.6711%26iv_geo_lon%3D-122.1253]]>
+							</Tracking>
+							<Tracking event="midpoint">
+								<![CDATA[https://s.innovid.com/1x1.gif?project_hash=1icp8s&amp;client_id=3484&amp;video_id=1426650&amp;channel_id=4687275&amp;publisher_id=6108&amp;placement_tag_id=0&amp;project_state=2&amp;r=1737571073473&amp;placement_hash=1bsme4&amp;action=vpoint&amp;event_id=percent&amp;event_value=50&amp;ivc_exdata=iv_geo_dma%3D819%26iv_geo_country%3DUS%26iv_geo_city%3DRedmond%26iv_geo_state%3DWA%26iv_geo_zip%3D98052%26iv_geo_lat%3D47.6711%26iv_geo_lon%3D-122.1253]]>
+							</Tracking>
+							<Tracking event="thirdQuartile">
+								<![CDATA[https://s.innovid.com/1x1.gif?project_hash=1icp8s&amp;client_id=3484&amp;video_id=1426650&amp;channel_id=4687275&amp;publisher_id=6108&amp;placement_tag_id=0&amp;project_state=2&amp;r=1737571073473&amp;placement_hash=1bsme4&amp;action=vpoint&amp;event_id=percent&amp;event_value=75&amp;ivc_exdata=iv_geo_dma%3D819%26iv_geo_country%3DUS%26iv_geo_city%3DRedmond%26iv_geo_state%3DWA%26iv_geo_zip%3D98052%26iv_geo_lat%3D47.6711%26iv_geo_lon%3D-122.1253]]>
+							</Tracking>
+							<Tracking event="complete">
+								<![CDATA[https://s.innovid.com/1x1.gif?project_hash=1icp8s&amp;client_id=3484&amp;video_id=1426650&amp;channel_id=4687275&amp;publisher_id=6108&amp;placement_tag_id=0&amp;project_state=2&amp;r=1737571073473&amp;placement_hash=1bsme4&amp;action=vpoint&amp;event_id=percent&amp;event_value=100&amp;ivc_exdata=iv_geo_dma%3D819%26iv_geo_country%3DUS%26iv_geo_city%3DRedmond%26iv_geo_state%3DWA%26iv_geo_zip%3D98052%26iv_geo_lat%3D47.6711%26iv_geo_lon%3D-122.1253]]>
+							</Tracking>
+							<Tracking event="firstQuartile">
+								<![CDATA[https://tpsc-video-uw.doubleverify.com/event.png?vstevt=4&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6]]>
+							</Tracking>
+							<Tracking event="midpoint">
+								<![CDATA[https://tpsc-video-uw.doubleverify.com/event.png?vstevt=6&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6&amp;vst_q2_tmsp=[TIMESTAMP]]]>
+							</Tracking>
+							<Tracking event="thirdQuartile">
+								<![CDATA[https://tpsc-video-uw.doubleverify.com/event.png?vstevt=8&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6]]>
+							</Tracking>
+							<Tracking event="complete">
+								<![CDATA[https://tpsc-video-uw.doubleverify.com/event.png?vstevt=10&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6&amp;vst_comp_plyrstat=[PLAYERSTATE]]]>
+							</Tracking>
+							<Tracking event="start">
+								<![CDATA[https://tpsc-video-uw.doubleverify.com/event.png?vstevt=0&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6&amp;vst_start_tmsp=[TIMESTAMP]]]>
+							</Tracking>
+							<Tracking event="pause">
+								<![CDATA[https://tpsc-video-uw.doubleverify.com/event.png?vstevt=22&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6&amp;vst_pause_tmsp=[TIMESTAMP]]]>
+							</Tracking>
+							<Tracking event="resume">
+								<![CDATA[https://tpsc-video-uw.doubleverify.com/event.png?vstevt=23&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6]]>
+							</Tracking>
+							<Tracking event="mute">
+								<![CDATA[https://tpsc-video-uw.doubleverify.com/event.png?vstevt=30&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6&amp;vst_mute_tmsp=[TIMESTAMP]]]>
+							</Tracking>
+							<Tracking event="unmute">
+								<![CDATA[https://tpsc-video-uw.doubleverify.com/event.png?vstevt=31&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6&amp;vst_unmute_tmsp=[TIMESTAMP]]]>
+							</Tracking>
+							<Tracking event="complete">
+								<![CDATA[https://vtrk.dv.tech/?tid=ZW-12000000&amp;ec=vast&amp;cid=e800a012-3a75-42bb-b565-e4759be562a6&amp;el=https%3A%2F%2Frtr.innovid.com%2Fr1.67606da2d91416.79342977%3Bcb%3D%24%257Bu.getRandomNumber()%257D&amp;ea=complete&amp;cm114=1&amp;cm115=20&amp;cd101=vast&amp;cd102=src&amp;cd111=inline&amp;cd112=unwrapped&amp;cd116=vast%3Ainnovid.com%3A20%3A1%3A0&amp;cd117=2&amp;cd170=118&amp;cd183=dvot_2024-12-11_3153aef0c_ec5e298&amp;cd188=SEA&amp;cd189=cloudflare&amp;cd190=15173683&amp;cd191=210135&amp;cd192=6108&amp;cd193=4697769&amp;cd194=3484&amp;cd196=1&amp;cd141=%5BAPIFRAMEWORKS%5D&amp;cd142=%5BTIMESTAMP%5D&amp;cd143=[TIMESTAMP]&amp;z=[CACHEBUSTING]]]>
+							</Tracking>
+						</TrackingEvents>
+						<VideoClicks>
+							<ClickThrough>
+								<![CDATA[https://dts.innovid.com/clktru/action/vclk?project_hash=1icp8s&amp;client_id=3484&amp;video_id=1426650&amp;channel_id=4687275&amp;publisher_id=6108&amp;placement_tag_id=0&amp;project_state=2&amp;r=1737571073473&amp;placement_hash=1bsme4&amp;action=clktru&amp;click=https%3A%2F%2Ftv.apple.com%2Fus%2Fshow%2Fseverance%2Fumc.cmc.1srk2goyh2q2zdxcx605w8vtx%3Fitscg%3DMC_50000%26itsct%3Datvp_brand_omd%26mttn3pid%3Dinnovid%26mttnagencyid%3Da5e%26mttncc%3DUS%26mttnsiteid%3D143238%26mttnsubad%3D05124607]]>
+							</ClickThrough>
+							<ClickTracking>
+								<![CDATA[https://vtrk.dv.tech/?tid=ZW-12000000&amp;ec=vast&amp;cid=e800a012-3a75-42bb-b565-e4759be562a6&amp;el=https%3A%2F%2Frtr.innovid.com%2Fr1.67606da2d91416.79342977%3Bcb%3D%24%257Bu.getRandomNumber()%257D&amp;ea=click&amp;cm114=1&amp;cm115=20&amp;cd101=vast&amp;cd102=src&amp;cd111=inline&amp;cd112=unwrapped&amp;cd116=vast%3Ainnovid.com%3A20%3A1%3A0&amp;cd117=2&amp;cd170=118&amp;cd183=dvot_2024-12-11_3153aef0c_ec5e298&amp;cd188=SEA&amp;cd189=cloudflare&amp;cd190=15173683&amp;cd191=210135&amp;cd192=6108&amp;cd193=4697769&amp;cd194=3484&amp;cd196=1&amp;cd141=%5BAPIFRAMEWORKS%5D&amp;cd142=%5BTIMESTAMP%5D&amp;cd143=[TIMESTAMP]&amp;z=[CACHEBUSTING]]]>
+							</ClickTracking>
+						</VideoClicks>
+						<MediaFiles>
+							<MediaFile delivery="progressive" width="1920" height="1080" type="video/mp4" bitrate="4000">
+								<![CDATA[https://s-static.innovid.com/media/encoded/12_24/931296/13_source_210135_1179755.mp4]]>
+							</MediaFile>
+						</MediaFiles>
+					</Linear>
+				</Creative>
+			</Creatives>
+			<Extensions>
+				<Extension type="AdVerifications">
+					<AdVerifications>
+						<Verification vendor="doubleverify.com-omid">
+							<JavaScriptResource apiFramework="omid" browserOptional="true">
+								<![CDATA[https://cdn.doubleverify.com/dvtp_src.js#vendor_key=doubleverify.com-omid]]>
+							</JavaScriptResource>
+							<TrackingEvents>
+								<Tracking event="verificationNotExecuted">
+									<![CDATA[https://tpsc-video-uw.doubleverify.com/visit.jpg?verr=[REASON]&amp;tagtype=video&amp;ctx=818052&amp;cmp=DV064005&amp;sid=123&amp;plc=verificationRejection&amp;advid=818053&amp;crt=omidVerificationNotExecuted&amp;dvtagver=dvot_2024-12-11_3153aef0c_ec5e298&amp;vasttrkevt=impression&amp;dvp_ctx=15173683&amp;dvp_cmp=210135&amp;dvp_sid=6108&amp;dvp_plc=4697769&amp;dvp_advid=3484&amp;dvp_crt=1islst&amp;adsrv=118&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6&amp;vmftype=video&amp;dvp_cfbs=99&amp;dvp_infra=cloudflare&amp;dvp_zjsver=0.28.0&amp;gdpr=0&amp;vstvr=2.0-i&amp;dvp_media=1&amp;dvp_psf=0]]>
+								</Tracking>
+							</TrackingEvents>
+							<VerificationParameters>
+								<![CDATA[tagtype=video&amp;msrapi=jsOmid&amp;ctx=15173683&amp;cmp=210135&amp;sid=6108&amp;plc=4697769&amp;advid=3484&amp;adsrv=118&amp;crt=1islst&amp;dup=e800a012-3a75-42bb-b565-e4759be562a6&amp;dvtagver=dvot_2024-12-11_3153aef0c_ec5e298&amp;blk=0&amp;mon=1&amp;dvp_cfbs=99&amp;dvp_infra=cloudflare&amp;dvp_zjsver=0.28.0&amp;gdpr=0&amp;vstvr=2.0-i&amp;dvp_media=1&amp;dvp_psf=0&amp;vidreg=uw&amp;vmftype=video]]>
+							</VerificationParameters>
+						</Verification>
+					</AdVerifications>
+				</Extension>
+			</Extensions>
+		</InLine>
+	</Ad>
+</VAST>
