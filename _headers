@@ -1,0 +1,25 @@
+# _headers file for GitHub Pages
+# This file should be placed in the root of your repository
+
+# Allow CORS for all files in the /Test/Ad/scripts/ directory
+/Test/Ad/scripts/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Max-Age: 86400
+
+# Specific configuration for the Ad-VUE.js file
+/Test/Ad/scripts/Ad-VUE.js
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Access-Control-Allow-Headers: Content-Type
+  Content-Type: application/javascript
+  Cache-Control: max-age=3600
+
+# Specific configuration for the Ad-VUE.js file
+/Test/Ad/scripts/Ad-Verification.js
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Access-Control-Allow-Headers: Content-Type
+  Content-Type: application/javascript
+  Cache-Control: max-age=3600
