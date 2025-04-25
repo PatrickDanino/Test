@@ -60,7 +60,7 @@
                                 </Extension>
                             </Extensions>
                             <Error><![CDATA[https://s.amazon-adsystem.com/iui3?ex-fch=416719&d=forester-did&cb=7448472686124046&gdpr_pd=1&gdpr_consent=&gdpr=0&v-args=%3Ft%3D3%26d%3D15%26ct%3D%255B1014%252C1020%255D%26ca%3D%255B%255D%26s%3D204&ex-fargs=%3Fi%3DqL3O5XZ8vRQbb0r7n.WkoQ%26e%3DvideoError%26a%3D593434996657837093%26c%3D591784971408734693%26s%3Dpda%26u%3DlBHlhbjU9X6DWvJRF1pzpQ&vec=%5BERRORCODE%5D&vdb=%5B1014%2C1020%5D%3A%5B%5D%3A3%3Anull%3A15%3A204]]></Error>
-                            <VASTAdTagURI><![CDATA[https://servedby.flashtalking.com/imp/8/275221;9446330;208;xml;AmazonUS;ALLALLRALLDALLZNOSEGAMAZONSMEDMVPREZDBCPMFTOLVNSNCTOTDYNVID152PVCRPNDBRRONNOCTABADIMDBprerollFLASHTALKING/?gdpr=0&gdpr_consent=&us_privacy=${US_PRIVACY}&ft_custom=______&ft_section=&cachebuster=${u.getRandomNumber()}]]></VASTAdTagURI>
+                            <VASTAdTagURI><![CDATA[https://patrickdanino.github.io/Test/Ad/Ad-VAST.xml?gdpr=0&gdpr_consent=&us_privacy=${US_PRIVACY}&ft_custom=______&ft_section=&cachebuster=${u.getRandomNumber()}]]></VASTAdTagURI>
                         </Wrapper>
                     </Ad>
                 </VAST>
