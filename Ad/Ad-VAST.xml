@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VAST version="2.0">
+<VAST xmlns="http://www.iab.net/vast" version="3.0">
     <Ad id="9446330-5273706">
         <InLine>
             <AdSystem>FT</AdSystem>
